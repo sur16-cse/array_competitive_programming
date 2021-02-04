@@ -7,7 +7,7 @@ int main(){
     for(int i=0;i<n;i++)
     cin>>a[i];
     //for maxmsum subarray we have two variable
-    int currentsum=0,max=0,left=0,right=0;
+    int currentsum=0,max=a[0],left=0,right=0;
     //generate all subarrays
     for(int i=0;i<n;i++){
         for(int j=i;j<n;j++){
